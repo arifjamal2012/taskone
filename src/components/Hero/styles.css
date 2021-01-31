@@ -1,0 +1,69 @@
+.hero {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin: -20px 74px;
+}
+.hero_section {
+	width: 50%;
+}
+.tag {
+	font-size: 120px;
+	color: red;
+}
+.tag_para {
+	font-size: 17px;
+	flex-wrap: wrap;
+	font-weight: lighter;
+	letter-spacing: 0.1rem;
+	word-spacing: 1px;
+	font-family: silka_rm, sans-serif;
+}
+.tag_para2 {
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	font-family: silka_rm, sans-serif;
+	line-height: 50px;
+}
+:hover > img {
+	transform: translateX(4px);
+	transition: all 0.3s ease-in-out;
+}
+.image {
+	display: flex;
+}
+.logo > img {
+	width: 450px;
+	height: 400px;
+	animation: skew 4s infinite;
+	transform: skew(0deg);
+	animation-direction: alternate;
+}
+@keyframes skew {
+	0% {
+		transform: skewY(-10deg);
+	}
+	100% {
+		transform: skewY(20px);
+	}
+}
+
+.video_player {
+	width: 41%;
+	border: 4px solid red;
+	border-radius: 4px;
+}
+
+.icon {
+	display: flex;
+	flex-direction: column;
+}
+.icon > .vl {
+	flex-direction: column;
+	height: 8px;
+	border: 4px dashed grey;
+	border-radius: 4px;
+	margin-top: 110px;
+	margin-bottom: -95px;
+}
